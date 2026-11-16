@@ -5,6 +5,10 @@ Deployers get an "update available" notice in Railway when a change is merged to
 Read the entry before you apply it, and back up your Postgres database first: Infisical
 runs its database migrations automatically when the new version starts.
 
+## Unreleased (2026-11-16)
+
+- README only: Deploy on Railway button for the published template `infisical-1`, and a clearer first-start note. No change to what gets deployed.
+
 ## v0.167.10 (2026-11-16)
 
 - First release of the template: Infisical `v0.167.10`
