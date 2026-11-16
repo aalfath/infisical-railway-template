@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/infisical-1?utm_medium=integration&utm_source=button&utm_campaign=infisical)
+
 # Infisical on Railway
 
 A Railway template for [Infisical](https://infisical.com), the open-source platform for secrets,
@@ -27,7 +29,8 @@ Nothing to fill in at deploy time.
 ## First start
 
 Open the public URL and create the first account right away: on a new instance, the first person to
-sign up becomes the server admin. Then, under **Server Admin Console → General**, limit or disable sign-ups.
+sign up at `/admin/signup` becomes the server admin. Infisical then closes sign-ups by itself; you can
+reopen or restrict them under **Server Admin Console → General**.
 
 Optional features, added as variables on the Infisical service: email (`SMTP_HOST`, `SMTP_PORT`,
 `SMTP_USERNAME`, `SMTP_PASSWORD`, `SMTP_FROM_ADDRESS`, `SMTP_FROM_NAME`), SSO and telemetry
